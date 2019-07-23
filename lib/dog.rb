@@ -20,10 +20,8 @@ class Dog
   end
   
   def self.print_all
-    i = 0
-    while i < @@all_dog_names.length
-      puts @@all_dog_names[i]
-      i +=1
+   @@all_dog_names.each do |dog_name|
+     puts dog_name
     end
   end
   
