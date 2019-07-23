@@ -1,5 +1,7 @@
 class Dog
   
+  attr_reader :name
+  
   @@all = []
   @@all_dog_names = []
   
