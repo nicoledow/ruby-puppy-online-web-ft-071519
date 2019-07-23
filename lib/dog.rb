@@ -19,6 +19,7 @@ class Dog
   
   def self.print_all
     @@all_dog_names.each do |dog|
+      binding.pry
       puts dog
     end
   end
